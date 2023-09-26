@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe</title>
+    <style>
+        body {
+            background: violet;
+        }
+
+        .box {
+            background: lavender;
+            width: 200px;
+            height: 200px;
+            /* animation-name: animate1;
+            animation-duration:2s ;
+            animation-iteration-count: 1 
+            or can do infinite;
+            animation-fill-mode: forwards; 
+            /*so that it sill remain in the last position*/
+            /* animation-delay: 2s;
+            animation-direction: alternate  */
+            /* or alternate-reverse;
+            animation-timing-function: ease-in-out; */
+
+            animation: animate1 5s forwards 1s ease-in-out;
+
+
+
+
+        }
+
+        @keyframes animate1 {
+            /* even without from still works */
+            /* from {
+                width: 200px
+            } */
+
+            from {
+                top: 0;
+            }
+
+            to {
+                width: 600px;
+                background-color: red; 
+                top: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

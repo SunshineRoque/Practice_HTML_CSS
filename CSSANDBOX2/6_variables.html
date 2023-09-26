@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Variables</title>
+    <style>
+
+        :root {
+            --max_width: 1100px;
+            --primary_color: lavender;
+            --secondary_color: purple;
+            --variable: violet;
+            --bar_width1:1;
+            --bar_width2:2;
+
+            /* .box {--bar_width1:1;
+            --bar_width2:2; }  you can do it still work */
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            /* --variable: violet; */
+            background: var(--variable);
+            /* in setting variable need to always start in -- */
+        }
+
+
+        header {
+            background-color: var(--primary_color);
+            border-bottom: 5px var(--secondary_color);
+            color:  blue;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            margin: auto;
+            max-width: var(--max_width);
+        }
+
+        .box {
+            background-color: var(--primary_color);
+            border-bottom: 5px var(--secondary_color) solid;
+            color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .box-1{
+            flex: var(--bar_width1)
+        }
+
+        .box-2{
+            flex: var(--bar_width2)
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Css Variable</h1>
+    </header>
+    <div class="container">
+        <div class="box box-1">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate dolorum mollitia sequi corrupti in, aut eveniet ullam totam libero!</p>
+        </div>
+        <div class="box box-2">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate dolorum mollitia sequi corrupti in, aut eveniet ullam totam libero!</p>
+        </div>
+    </div>
+</body>
+</html>
