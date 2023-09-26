@@ -23,19 +23,22 @@
     opacity: 0;
 }
 
-.btn-primary .bg-primary{
+.btn-primary .bg-primary {
     background: #28a745;
     color: #fff;
 }
-.btn-secondary .bg-secondary{
+
+.btn-secondary .bg-secondary {
     background: #0284d0;
     color: #fff;
 }
+
 .btn-dark .bg-dark {
     background: #333;
     color: #fff;
 }
-.btn-light .bg-light{
+
+.btn-light .bg-light {
     background: #f4f4f4;
     color: #fff;
 }
@@ -46,12 +49,12 @@
 }
 
 /* Flex comlumns */
- 
+
 .flex-columns.flex-reverse .row {
     flex-direction: row-reverse;
 }
 
-.flex-columns .row{
+.flex-columns .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,20 +79,20 @@
     object-fit: cover;
 }
 
-.flex-columns .column-2{
+.flex-columns .column-2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding: 30px;
 }
+
 .flex-columns h2 {
     font-size: 40px;
     font-weight: 100;
 }
 
-.flex-columns h4 {
-    ,margin-bottom: 10px;
+.flex-columns h4 {, margin-bottom: 10 px;
 }
 
 .flex-columns p {
@@ -97,7 +100,7 @@
 }
 
 /* Section header */
-.section-header{
+.section-header {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -105,6 +108,7 @@
     justify-content: center;
     text-align: center;
 }
+
 .section-header h2 {
     font-size: 40px;
     margin: 20px o;

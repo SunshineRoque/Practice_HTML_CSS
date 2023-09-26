@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -55,7 +55,7 @@ img {
     background: transparent;
 }
 
-.navbar a{
+.navbar a {
     color: #fff;
     padding: 10px 20px;
     margin: 0 5px;
@@ -64,18 +64,18 @@ img {
 .navbar a:hover {
     border-bottom: #28a745 2px solid;
 }
+
 .navbar ul {
     display: flex;
 }
 
-.navbar .logo{
+.navbar .logo {
     font-weight: 400;
 }
 
 /* Header */
 .hero {
-    background: url('../image/images/home/showcase.jpg') no-repeat 
-    center center/cover;
+    background: url('../image/images/home/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     columns: #fff;
@@ -96,7 +96,7 @@ img {
     font-size: 55px;
 }
 
-.hero .content p{
+.hero .content p {
     font-size: 23px;
     max-width: 600;
     margin: 20px 0 30px;
@@ -109,10 +109,10 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.hero *{
+.hero * {
     z-index: 10;
 }
 
@@ -132,7 +132,7 @@ img {
     margin-bottom: 15px;
 }
 
-.icons i{
+.icons i {
     background-color: #28a745;
     color: #fff;
     padding: 1rem;
@@ -176,7 +176,7 @@ img {
 
 .callback-form .btn {
     padding: 12px 0;
-    margin-top: 20px    ;
+    margin-top: 20px;
 }
 
 /* Flex items */
@@ -188,6 +188,7 @@ img {
     text-align: center;
     height: 100%;
 }
+
 .flex-items > div {
     padding: 20px;
 }
@@ -204,7 +205,7 @@ img {
     border-bottom: #ccc solid 1px;
 }
 
-.post .meta{
+.post .meta {
     margin-bottom: 30px;
 }
 
@@ -214,6 +215,7 @@ img {
     display: block;
     margin: 0 auto 30px;
 }
+
 /* Footer */
 
 .footer {
@@ -239,14 +241,14 @@ img {
 }
 
 .footer p {
-    color:#fff
+    color: #fff
 }
 
 /* Mobile */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
-        height: 120px ;
+        height: 120px;
         padding: 20px;
     }
 
@@ -259,7 +261,7 @@ img {
         flex-direction: column;
     }
 
-    .flex-column .column,  .flex-grid .column {
+    .flex-column .column, .flex-grid .column {
         flex: 100%;
         max-width: 100%;
     }

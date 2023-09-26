@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -90,20 +89,20 @@ html, body {
     text-align: center;
     padding: 0 2rem;
     background: coral;
-  }
-  
-  #showcase h1 {
+}
+
+#showcase h1 {
     color: #fff;
     font-size: 4rem;
-  }
-  
-  @media(max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     #navbar ul li {
-      display: block;
+        display: block;
     }
-  
+
     #navbar ul li:hover ul {
-      width: 100%;
-      position: relative;
+        width: 100%;
+        position: relative;
     }
-  }
+}

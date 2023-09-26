@@ -30,9 +30,9 @@ body {
     position: relative;
 }
 
-#showcase:before{
+#showcase:before {
     content: '';
-    background: url('../showcase.jpg') no-repeat center center/cover ;
+    background: url('../showcase.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@ body {
     font-size: 4rem;
 }
 
-#showcase p{
+#showcase p {
     font-size: 1.3rem;
 }
 

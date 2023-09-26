@@ -1,108 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lists and tables</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and tables</title>
 </head>
 <body>
-  <ul style="list-style: circle">
+<ul style="list-style: circle">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
     <li>Item 4</li>
     <li>Item 5</li>
-  </ul>
+</ul>
 
-  <ol type="i">
+<ol type="i">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
     <li>Item 4</li>
     <li>Item 5</li>
-    
-  </ol>
-  <ul>
+
+</ol>
+<ul>
     <li>Item1</li>
     <li>Item 2
-      <ul>
-        <li>Nested Item</li>
-      </ul>
+        <ul>
+            <li>Nested Item</li>
+        </ul>
     </li>
-  </ul>
+</ul>
 
-  <table style="width: 600px;">
+<table style="width: 600px;">
     <thead>
-      <tr>
+    <tr>
         <th>First Namwe</th>
         <th>Second Namwe</th>
-      </tr>
+    </tr>
     </thead>
     <tbody>
-      <tr>
+    <tr>
         <td>John</td>
-        <td>Doe</td> 
-      </tr>
+        <td>Doe</td>
+    </tr>
     </tbody>
-  </table>
+</table>
 </body>
 <form action="process.php"></form>
 
 <div>
-  <label for="name">Name</label><br>
-  <input type="text" id="name" name="name" value="John Doe">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" value="John Doe">
 </div>
 
 <div>
     <label for="email">Email</label><br>
-    <input type="email" name="email" id="email" 
-    placeholder="enter your email">
+    <input type="email" name="email" id="email"
+           placeholder="enter your email">
 </div>
 
-  <div>
+<div>
     <label for="message">Message</label><br>
     <textarea name="message" id="message" cols="50" rows="5"></textarea>
-  </div>
+</div>
 
-  <div>
+<div>
     <label for="sex">Sex</label><br>
     <select name="sex" id="sex">
-      <option value="male">Male</option>
-      <option value="female" selected>Female</option>
+        <option value="male">Male</option>
+        <option value="female" selected>Female</option>
     </select>
-  </div>
+</div>
 
-  <div>
+<div>
     <label for="age">Age</label><br>
     <input type="number" name="age" id="age">
-  </div>
+</div>
 
-  <div>
+<div>
     <label for="birthdate">Birthdate</label><br>
     <input type="date" name="birthdate" id="birthdate">
-  </div>
+</div>
 
-  <div>
+<div>
     <label for="membership">Membership</label>
-    <input type="radio" name="membership" value="simple" 
-    id="membership"> Simple
-    <input type="radio" name="membership" value="standard" 
-    id="membership" checked> Standard
-    <input type="radio" name="membership" value="super" 
-    id="membership"> Super
-  </div>
+    <input type="radio" name="membership" value="simple"
+           id="membership"> Simple
+    <input type="radio" name="membership" value="standard"
+           id="membership" checked> Standard
+    <input type="radio" name="membership" value="super"
+           id="membership"> Super
+</div>
 
-  <div>
+<div>
     <label for="membership">Membership</label>
-    <input type="checkbox" name="membership" value="simple" 
-    id="membership"> Simple
-    <input type="checkbox" name="membership" value="standard" 
-    id="membership" checked> Standard
-    <input type="checkbox" name="membership" value="super" 
-    id="membership"> Super
-  </div>
+    <input type="checkbox" name="membership" value="simple"
+           id="membership"> Simple
+    <input type="checkbox" name="membership" value="standard"
+           id="membership" checked> Standard
+    <input type="checkbox" name="membership" value="super"
+           id="membership"> Super
+</div>
 
-  <input type="submit" value="Submit">
-  <button type="submit">Submit</button>
-  <button type="reset">Reset</button>
+<input type="submit" value="Submit">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
 </html>
